@@ -101,4 +101,4 @@
 				AND (MP."intPaymentGatewayID" = 1)
 				AND MP."dteCreatedOn" > '2021-08-25 00:00:00' AND MP."dteCreatedOn" < '2021-10-08 23:59:59' 
 			ORDER BY MP."dteCreatedOn" DESC --LIMIT 10
-		) ORDER BY 1;
+		);
